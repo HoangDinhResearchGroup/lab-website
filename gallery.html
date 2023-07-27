@@ -13,22 +13,18 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+      <script> 
+         $(function(){
+           $("#header").load("header.html");
+         });
+      </script>
       <link href="css/blueimp-gallery.min.css" rel="stylesheet">
       <link href="css/blueimp-gallery-video.css" rel="stylesheet">
    </head>
    <body>
       <div class="container">
-          <header id="overview">
-             <div style="margin-bottom: 1.0em;">
-                 <div style="float:left; margin-bottom: 1.0em;">
-<!--                     <h1>Dr. Yuanwei Liu</h1>
-                    <p>Senior Lecturer (Associate Professor), Web of Science Highly Cited Researcher</p> -->
-                    <img src="images/STAR_LAB_logo.png" width="500">
-                 </div>
-               <div style="float:right; margin-bottom: 1.0em;"><img src="images/qmul_banner.gif" width="300"></div>
-             </div>
-             <div style="clear: both;"></div>
-          </header>
+          <div id="header"></div>
          <div class="masthead">
             <div class="navbar">
                <div class="navbar-inner">
